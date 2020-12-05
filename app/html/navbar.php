@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <a href="/" class="navbar-brand">ki's home #53</a>
+  <a href="/" class="navbar-brand">ki53</a>
   <button class="navbar-toggler" type="button"
     data-toggle="collapse"
     data-target="#navmenu1"
@@ -10,7 +10,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navmenu1">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="/otherapp/menu1.php">Menu#1</a>
+      <a class="nav-item nav-link" href="links.php">links</a>
+      <a class="nav-item nav-link" href="https://github.com/ki53">GitHub</a>
     </div>
   </div>
 </nav>
