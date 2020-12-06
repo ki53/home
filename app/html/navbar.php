@@ -11,7 +11,6 @@
   <div class="collapse navbar-collapse" id="navmenu1">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="https://github.com/ki53">GitHub</a>
-      <a class="nav-item nav-link" href="sample/">sample</a>
       <a class="nav-item nav-link" href="links.php">links</a>
     </div>
   </div>
