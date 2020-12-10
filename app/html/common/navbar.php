@@ -17,7 +17,8 @@
       <a class="nav-item nav-link" href="/">Home</a>
       <a class="nav-item nav-link" href="https://github.com/ki53">GitHub</a>
       <a class="nav-item nav-link" href="https://atcoder.jp/users/ki53">atcoder</a>
-      <a class="nav-item nav-link" href="links.php">links</a>
+      <a class="nav-item nav-link" href="/ip.php">ip</a>
+      <a class="nav-item nav-link" href="/links.php">links</a>
     </div>
   </div>
 </nav>

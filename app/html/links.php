@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="ja">
   <?php // <head> part ?>
-  <?php include 'head.php';?>
+  <?php include 'common/head.php';?>
   <body>
     <!-- nav bar -->
-    <?php include 'navbar.php';?>
+    <?php include 'common/navbar.php';?>
 
     <div class="list-group">
       <a href="https://getbootstrap.jp/docs/4.5/" class="list-group-item list-group-item-action">
