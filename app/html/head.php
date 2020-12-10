@@ -5,4 +5,5 @@
   <?php // other stylesheet below ?>
 
   <title>#53</title>
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
