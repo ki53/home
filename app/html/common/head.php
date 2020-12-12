@@ -6,4 +6,5 @@
 
   <title>#53</title>
   <link rel="shortcut icon" href="favicon.ico">
+  <style><?php include '../css/common_ccs.php';?></style>
 </head>

@@ -15,6 +15,6 @@
       </a>
     </div>
 
-    <?php include '../js/js.php';?>
+    <?php include '../js/common_js.php';?>
   </body>
 </html>
