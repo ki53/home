@@ -1,3 +1,4 @@
+<script>
 $(function () {
   'use strict'
 
@@ -5,3 +6,4 @@ $(function () {
     $('.offcanvas-collapse').toggleClass('open')
   })
 })
+</script>

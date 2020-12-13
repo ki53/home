@@ -1,13 +1,21 @@
 <!doctype html>
 <html lang="ja">
-  <?php // <head> part ?>
-  <?php include 'common/head.php';?>
-  <?php include '../css/carousel.css';?>
+  <head>
+<?php
+    // <head> part
+    include 'common/head.php';
+?>
+    <link rel="stylesheet" href="/css/carousel.css">
+
+  </head>
 
   <body>
     <!-- nav bar -->
-    <?php include 'common/navbar.php';?>
+<?php
+    include 'common/navbar.php';
+?>
 
+    <!-- main bar -->
     <main role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -81,8 +89,10 @@
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+      </div>
     </main>
-
-    <?php include '../js/common_js.php';?>
+<?php
+    include 'js/common_js.php';
+?>
   </body>
 </html>
