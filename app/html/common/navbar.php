@@ -17,6 +17,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="Apps" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
           <div class="dropdown-menu" aria-labelledby="Apps">
             <a class="dropdown-item" href="/ip.php">ip address</a>
+            <a class="dropdown-item" href="/password.php">password</a>
           </div>
         </li>
         <li class="nav-item dropdown">
