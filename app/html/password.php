@@ -1,32 +1,18 @@
 <!doctype html>
 <html lang="ja">
-  <?php // <head> part ?>
-  <?php include 'common/head.php';?>
+<?php // <head> part ?>
+<?php include 'common/head.php';?>
   <body>
     <!-- nav bar -->
-    <?php include 'common/navbar.php';?>
+<?php include 'common/navbar.php';?>
 
-    <script>
-        function copyTextToClipboard(ps_id) {
-            var str = document.getElementById(ps_id).innerHTML;
-            console.log(str);
-
-            const el = document.createElement('textarea');
-            el.value = str;
-            el.setAttribute('readonly', '');
-            el.style.position = 'absolute';
-            el.style.left = '-9999px';
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
-        }
-    </script>
+    <!-- main -->
+    <script src="js/password.js"></script>
 
     <table class="table">
       <thead>
         <tr>
-          <th scope="col">Passwords</th>
+          <th scope="col">#</th>
           <th scope="col"></th>
           <th scope="col"></th>
         </tr>
@@ -43,7 +29,10 @@
             <div id="password_<?= $k ?>" value="<?php echo $pass[$k] ; ?>"><?php echo $pass[$k] ; ?></div>
           </td>
           <td>
-            <button onclick="copyTextToClipboard('password_<?= $k ?>')">Copy</button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16" onclick="copyTextToClipboard('password_<?= $k ?>')">
+              <path fill-rule="evenodd" d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+              <path fill-rule="evenodd" d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+            </svg>
           </td>
         </tr>        
 <?php } ?>
