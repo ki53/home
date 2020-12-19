@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="ja">
+  <head>
 <?php // <head> part ?>
 <?php include 'common/head.php';?>
+    <title>password - #53</title>
+
+  </head>
   <body>
     <!-- nav bar -->
 <?php include 'common/navbar.php';?>

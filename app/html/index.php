@@ -7,6 +7,8 @@
 ?>
     <link rel="stylesheet" href="/css/carousel.css">
 
+    <title>#53</title>
+
   </head>
 
   <body>

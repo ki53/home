@@ -1,7 +1,12 @@
 <!doctype html>
 <html lang="ja">
-  <?php // <head> part ?>
-  <?php include 'common/head.php';?>
+  <head>
+<?php // <head> part ?>
+<?php include 'common/head.php';?>
+    <title>ip - #53</title>
+
+  </head>
+
   <body>
     <!-- nav bar -->
     <?php include 'common/navbar.php';?>
